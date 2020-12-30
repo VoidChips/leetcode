@@ -58,21 +58,12 @@ public:
         numbers.emplace(90, "Ninety");
         numbers.emplace(100, "Hundred");
         numbers.emplace(1000, "Thousand");
-        numbers.emplace(100000, "Hundred Thousand");
         numbers.emplace(1000000, "Million");
-        numbers.emplace(10000000, "Ten Million");
-        numbers.emplace(100000000, "Hundred Million");
         numbers.emplace(1000000000, "Billion");
 
-        digits.emplace(1, 1);
-        digits.emplace(2, 10);
         digits.emplace(3, 100);
         digits.emplace(4, 1000);
-        digits.emplace(5, 10000);
-        digits.emplace(6, 100000);
         digits.emplace(7, 1000000);
-        digits.emplace(8, 10000000);
-        digits.emplace(9, 100000000);
         digits.emplace(10, 1000000000);
 
         if (num == 0)
